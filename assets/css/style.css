@@ -12,7 +12,6 @@ body {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    display: inline;
     font-size: 24px;
 
 }
@@ -57,22 +56,13 @@ a:active {
     font-weight: bold;
 }
 
-.contentheader {
+.contentheader, .content{
    
     background-color: #ffffff;
     
     
 }
 
-.picture {
-    position: relative;
-}
-.content {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    position: absolute;
-    text-align: center;
-}
 
 #bioimage {
     width: 150px;
@@ -87,19 +77,15 @@ a:active {
     border: none;
 
 }
-#images {
-    display: block;
-    position: relative;
-    
-}
 
-}
-.caption{
+
+
+.caption {
     
     background-color: #4aaaa5;
     color: #ffffff;
-    position: absolute;
     text-align: center;
+    width:90%
    
 
 }
@@ -111,8 +97,7 @@ a:active {
     color: #ffffff;
     font-size: 12px;
     border-top: 5px solid #4aaaa5;
-    position: absolute;
-    bottom: 0;
+   position: absolute;
     width: 100%;
     height: 57px;
     line-height: 60px;
